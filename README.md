@@ -34,3 +34,14 @@ Lakukan pengujian aplikasi pada terminal/Command Prompt Anda. Anda membutuhkan b
 1. Buka terminal pertama, arahkan ke direktori proyek, dan jalankan server TCP:
    ```bash
    python TCPServer.py
+2. Buka terminal kedua, arahkan ke direktori proyek, dan jalankan client TCP:
+   ```bash
+   python TCPclient.py
+
+### 2. Menjalankan Layanan UDP
+1. Buka terminal pertama, arahkan ke direktori proyek, dan jalankan server UDP:
+   ```bash
+   python UDPServer.py
+2. Buka terminal kedua, arahkan ke direktori proyek, dan jalankan client UDP:
+   ```bash
+   python UDPclient.py
