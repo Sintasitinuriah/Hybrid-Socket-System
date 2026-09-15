@@ -45,3 +45,16 @@ Lakukan pengujian aplikasi pada terminal/Command Prompt Anda. Anda membutuhkan b
 2. Buka terminal kedua, arahkan ke direktori proyek, dan jalankan client UDP:
    ```bash
    python UDPclient.py
+
+## 📊 Hasil Pengujian Wireshark
+Pada repositori ini juga dilampirkan bukti penangkapan paket (packet capture) menggunakan Wireshark yang membuktikan:
+
+1. Proses Three-way handshake dan data transfer yang andal via TCP.
+2. Pertukaran datagram UDP (Ping-Pong) yang bersifat connectionless.
+
+##👨‍💻 Informasi Pembuat
+Nama: Sinta Siti Nuriah
+
+Institusi: Universitas Gadjah Mada
+
+Mata Kuliah: Jaringan Komputer Lanjut (S2 Ilmu Komputer)
