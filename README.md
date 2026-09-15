@@ -50,15 +50,15 @@ Lakukan pengujian aplikasi pada terminal/Command Prompt Anda. Anda membutuhkan b
 Contoh hasil percobaan Wireshark pada project ini. Disertakan gambar pengujian terminal dan hasil Wireshark untuk TCP dan UDP-nya:
 
 Pengujian Terminal
-![Terminal TCP & UDP](/Screenshot 2026-09-15 110834.png)
+![Terminal TCP & UDP](/2.png)
 Tangkapan layar terminal saat pengujian TCP Server-Client dan UDP Pinger dengan simulasi packet loss.
 
 Analisis Wireshark: Proses TCP
-![Wireshark TCP](/Screenshot 2026-09-15 111905.png)
+![Wireshark TCP](/3.png)
 Proses pengiriman paket dengan flag [PSH, ACK] dari klien dan [ACK] dari server, menandakan transfer data yang andal.
 
 Analisis Wireshark: Proses UDP
-![Wireshark UDP](/Screenshot 2026-09-15 112104.png)
+![Wireshark UDP](/4.png)
 Paket data mentah (datagram) di layer bawah (LLC/IP) dengan tujuan dan sumber ke port 12000 secara connectionless.
 
 
